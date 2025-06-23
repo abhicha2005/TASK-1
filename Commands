@@ -1,0 +1,4 @@
+ipconfig # TO check ip address 
+nmap -F 192.168.1.10 # for common ports
+nmap -p- 192.168.1.10 # scanning all 65535 ports
+ nmap -sS 192.168.1.10 # TO perform a TCP SYN SCAN
